@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "lettering";
+    src: url('../../utils/fonts/Biancha-X3VOa.otf') ;
+    font-display: swap;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+#toggler , nav, label {
+    display: none;
+}
+
+
+nav:hover{
+    background-color: black;
+    font-weight: 500;
+}
+
+.container-name{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3%;
+}
+
+.name{
+    font-family: 'lettering';
+    font-size: 3rem;
+    color: white;
+    font-weight: 200;
+}
+
+.item{
+    text-decoration: none;
+    color:white;
+    font-weight: 300;
+}
+
+.item:hover{
+    color: pink;
+    font-weight: 600;
+}
+
+.container-navbar{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.logo{
+    float: left;
+    text-decoration: none;
+    margin-left: 40%;
+}
+
+@media screen and (max-width: 700px) {
+    .menu {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar label {
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    #toggler:checked ~ .menu {
+        max-height: 100%;
+    }
+
+    .container-navbar{
+        flex-direction: column;
+    }
+
+    .navbar {
+        
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .navbar {
+       height: 20px;
+       background-color: rgba(137, 137, 137, 0.15);
+       display: flex; 
+    } 
+
+    .list{
+        flex-basis: 85%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .list li{
+        font-size: 1.5rem;
+    }
+}
