@@ -44,9 +44,10 @@ function About() {
                             <p>estefymoncaleano@gmail.com</p>
                         </div>
                     </a>
-                    <a target={'_blank'} href='https://www.linkedin.com/in/estefamh/'>
+                    <a target={'_blank'} href='www.linkedin.com/in/estefamh'>
                         <div className='contact-icons'>
                             <img alt='contact-icon' className='contact-icon' src={linkedin} />
+
                             <p>www.linkedin.com/in/estefamh</p>
                         </div>
                     </a>

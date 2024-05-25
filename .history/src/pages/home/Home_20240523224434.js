@@ -1,7 +1,7 @@
 import './Home.css'
 import Navbar from "../../components/navbar/Navbar";
 import Footer from '../../components/footer/Footer';
-import tefa from "../../utils/img/tefa_photo.png"
+import tefa from "../../utils/img/perfil.jpeg"
 
 
 function Home() {

@@ -39,16 +39,18 @@ function About() {
                         </div>
                     </a>
                     <a href="mailto:estefymoncaleano@gmail.com">
-                        <div className='contact-icons'>
-                            <img alt='mail-icon' className='contact-icon' src={gmail} />
-                            <p>estefymoncaleano@gmail.com</p>
-                        </div>
-                    </a>
-                    <a target={'_blank'} href='https://www.linkedin.com/in/estefamh/'>
-                        <div className='contact-icons'>
-                            <img alt='contact-icon' className='contact-icon' src={linkedin} />
-                            <p>www.linkedin.com/in/estefamh</p>
-                        </div>
+                    <div className='contact-icons'>
+                        <img className='contact-icon' src={gmail} />
+                        <p>estefymoncaleano@gmail.com</p>
+                    </div>
+                    </
+                    <a target={'_blank'} href='www.linkedin.com/in/estefamh'>
+                    <div className='contact-icons'>
+                        
+                            <img className='contact-icon' src={linkedin} />
+                       
+                        <p>www.linkedin.com/in/estefamh</p>
+                    </div>
                     </a>
                 </article>
             </section>

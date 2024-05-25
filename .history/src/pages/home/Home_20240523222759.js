@@ -16,12 +16,12 @@ function Home() {
                 <article className='info-home'>
                     <p className='info-home1'>Hola, soy Estefania Moncaleano</p>
                     <p className='info-home2'>Desarrolladora Web</p>
-                    <a target='_blank' href=' https://api.whatsapp.com/send/?phone=573013839680' ><button className='btn btn-one'><span>Contactame</span></button></a>
+                    <button className='btn btn-one'><a href=' https://api.whatsapp.com/send/?phone=57' >Contactame</a></button>
 
                 </article>
 
                 <article className='photo-home'>
-                    <img alt='imagen' src={tefa}/>
+                    <img src={tefa}/>
                 </article>
 
                

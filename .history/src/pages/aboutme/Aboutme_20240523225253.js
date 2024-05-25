@@ -38,18 +38,18 @@ function About() {
                             <p>https://github.com/EstefaMH</p>
                         </div>
                     </a>
-                    <a href="mailto:estefymoncaleano@gmail.com">
-                        <div className='contact-icons'>
-                            <img alt='mail-icon' className='contact-icon' src={gmail} />
-                            <p>estefymoncaleano@gmail.com</p>
-                        </div>
-                    </a>
-                    <a target={'_blank'} href='https://www.linkedin.com/in/estefamh/'>
-                        <div className='contact-icons'>
-                            <img alt='contact-icon' className='contact-icon' src={linkedin} />
-                            <p>www.linkedin.com/in/estefamh</p>
-                        </div>
-                    </a>
+
+                    <div className='contact-icons'>
+                        <img className='contact-icon' src={gmail} />
+                        <p>estefymoncaleano@gmail.com</p>
+                    </div>
+
+                    <div className='contact-icons'>
+                        <a target={'_blank'} href='www.linkedin.com/in/estefanía-moncaleano-828570238'>
+                            <img className='contact-icon' src={linkedin} />
+                        </a>
+                        <p>www.linkedin.com/in/estefanía-moncaleano</p>
+                    </div>
                 </article>
             </section>
 

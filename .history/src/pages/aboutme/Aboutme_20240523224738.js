@@ -20,7 +20,7 @@ function About() {
                     <p>
                         Desarrolladora front-end apasionada por crear experiencias web intuitivas y atractivas.
                         Con más de 2 años de experiencia, tengo conocimiento en las tecnologías front-end más populares, incluyendo HTML5, CSS3, JavaScript, React.js
-                        <br />¡Mi pasión es crear interfaces de usuario intuitivas y atractivas que brinden una experiencia de usuario excepcional!
+                         <br/>¡Mi pasión es crear interfaces de usuario intuitivas y atractivas que brinden una experiencia de usuario excepcional
                     </p>
                 </div>
             </section>
@@ -32,24 +32,25 @@ function About() {
 
                 <article className='container-contact-icons'>
 
-                    <a target={'_blank'} href='https://github.com/EstefaMH' rel="noreferrer">
-                        <div className='contact-icons'>
-                            <img alt='github-icon' className='contact-icon' src={github} />
-                            <p>https://github.com/EstefaMH</p>
-                        </div>
-                    </a>
-                    <a href="mailto:estefymoncaleano@gmail.com">
-                        <div className='contact-icons'>
-                            <img alt='mail-icon' className='contact-icon' src={gmail} />
-                            <p>estefymoncaleano@gmail.com</p>
-                        </div>
-                    </a>
-                    <a target={'_blank'} href='https://www.linkedin.com/in/estefamh/'>
-                        <div className='contact-icons'>
-                            <img alt='contact-icon' className='contact-icon' src={linkedin} />
-                            <p>www.linkedin.com/in/estefamh</p>
-                        </div>
-                    </a>
+
+                    <div className='contact-icons'>
+                        <a target={'_blank'} href='https://github.com/EstefaMH'>
+                            <img className='contact-icon' src={github} />
+                        </a>
+                        <p>https://github.com/EstefaMH</p>
+                    </div>
+
+                    <div className='contact-icons'>
+                        <img className='contact-icon' src={gmail} />
+                        <p>estefymoncaleano@gmail.com</p>
+                    </div>
+
+                    <div className='contact-icons'>
+                        <a target={'_blank'} href='www.linkedin.com/in/estefanía-moncaleano-828570238'>
+                            <img className='contact-icon' src={linkedin} />
+                        </a>
+                        <p>www.linkedin.com/in/estefanía-moncaleano</p>
+                    </div>
                 </article>
             </section>
 
